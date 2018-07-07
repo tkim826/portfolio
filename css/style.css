@@ -1,0 +1,203 @@
+body {
+  overflow-x: hidden;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('https://source.unsplash.com/collection/1074434/800x500');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('https://source.unsplash.com/collection/1020268/800x500" alt="Third slide');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('https://source.unsplash.com/collection/585293/800x500');
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 300px;
+  background: url('../img/plant.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.working {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #343a40;
+  text-align: center;
+}
+.class-working {
+  text-align: center;
+}
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.uxdesign {
+  max-height: 60px;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.uidesign {
+  max-height: 60px;
+
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.fa-tshirt {
+  max-height: 60px;
+  margin-bottom: 1rem;
+}
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/succulent.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#page-header {
+  height: 300px;
+  background: url('../img/succulent.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.btn-outline-success:hover {
+  background-color: #e5bd6e;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #c17134;
+  border-color: #c17134;
+}
+
+.btn-primary:hover {
+  background-color: #72b2a8;
+}
+
+.btn-outline-info:hover {
+  background-color: #72b2a8;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #2c7aaf;
+  border-color: #2c7aaf;
+}
+.btn-outline-success:hover {
+  background-color: #839ab7;
+}
+.btn-outline-info {
+  color: #288e99;
+  background-color: transparent;
+  background-image: none;
+  border-color: #288e99;
+}
+
+.btn-outline-danger {
+  border-color: #c44b7c;
+  color: #c44b7c;
+}
+.btn-danger {
+  background-color: #c44b7c;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #e56a67;
+  border-color: none;
+}
+
+.btn-outline-danger:hover {
+  background-color: #e56a67;
+  border-color: none;
+}
+
+.bg-danger {
+  background-color: #c44b7c !important;
+}
+.about-img {
+  margin-top: -50px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
