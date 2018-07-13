@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="blackBG">
+    <div class="loader">
+      <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
+        <iframe src="https://giphy.com/embed/3oKIPsx2VAYAgEHC12" width="100%" height="100%" style="position:absolute" frameBorder="0"
+          class="giphy-embed" allowFullScreen></iframe>
+      </div>
+      <p>
+        <a href="https://giphy.com/gifs/DNCE-3oKIPsx2VAYAgEHC12">via GIPHY</a>
+      </p>
+
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    // site preloader
+    $(window).on('load', function () { // This line is a event listener that listens for the window to finish loading everything the run the below code
+      $('.loader').delay(2000).fadeOut(); /* This function makes use of fadeOut() to hide both .loader and .blackBG and it also uses the delay function before it. Delay makes the animation run for 2000 milliseconds before it runs .fadeOut(). I'm using delay because otherwise this page will load to fast to see the effect. Remove the .delay(2000) part from this line of code to see.
+    See documentation below.
+    fadeOut() - > http://api.jquery.com/fadeout/
+    delay(duration) - > http://api.jquery.com/delay/
+    */
+      $('.blackBG').delay(2000).fadeOut();
+    });// close the event listener
+
+  </script>
+
+
+
+
+</body>
+
+</html>
